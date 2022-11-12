@@ -25,6 +25,22 @@ export default function App() {
         isbn="852-8-1523-6969-1"/>
       </View> 
       
+      <View style={styles.tilesContainer}>
+        <Tile 
+        title="The Catcher in the Rye" 
+        writer="J. D. Salinger" 
+        description="Holden Caulfield, a depressed 16-year-old, lives in a sanitorium in California after the end of World War II. After his discharge within a month, he intends to go live with his brother D.B., an author and war veteran with whom Holden is angry for becoming a Hollywood screenwriter"
+        isbn="852-8-1523-6969-1"/>
+      </View> 
+      
+      <View style={styles.tilesContainer}>
+        <Tile 
+        title="Invisible Man" 
+        writer="Ralph Ellison" 
+        description="a young African American man who moves north during the Harlem Renaissance and faces many trials as he attempts to find his place in society.."
+        isbn="852-8-1523-6969-1"/>
+      </View> 
+      
       
       <StatusBar style="auto" />
     </ScrollView>
