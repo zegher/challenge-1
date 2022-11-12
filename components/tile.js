@@ -8,7 +8,7 @@ const Tile = (props) => {
             <Text style={styles.writer}>{props.writer}</Text>
             <Text style={styles.uitleg}>{props.description}</Text>
             <Text style={styles.isbn}>ISBN {props.isbn}</Text>
-            <Pressable onPress={() => console.log("Click Button")} style={styles.button}>
+            <Pressable onPress={() => console.log("Click Buttong")} style={styles.button}>
                 <Text>  READ</Text>
             </Pressable>
         </View>
@@ -17,7 +17,7 @@ const Tile = (props) => {
 
     const styles = StyleSheet.create({
         tile: {
-            height: 300,
+            height: 200,
             flexBasis: '46%',
             overflow: 'hidden',
             marginBottom: 2,
@@ -31,8 +31,8 @@ const Tile = (props) => {
             borderWidth: 2,
             borderStyle: 'solid',
             width: '15%',
-
-            marginLeft: 300,
+            marginTop: -20,
+            marginLeft: 320,
         },
         title: {
             fontSize: 25,
